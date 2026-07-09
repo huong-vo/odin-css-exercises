@@ -24,3 +24,54 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* used to center the content and push the footer to the bottom */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header,
+.footer {
+  padding: 12px 12px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(107, 107, 107);
+}
+
+.content {
+  /* text-align: center; */
+  /* without align-self, this block takes up the whole width */
+  /* align-self: center; */ 
+  /* used to center horizontally, works with or without align-self */
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  /* justify-content: center; */
+}
+
+/* .input {
+  margin: 16px 0;
+} */
+
+button {
+  padding: 6px 12px; 
+}
+
+.footer {
+  background-color: #eeeeee;
+}
