@@ -68,7 +68,7 @@ a {
 .content {
   /* for content to take up the rest of the space */
   flex: 1;
-  display: flex;;
+  display: flex;
 }
 
 .sidebar {
